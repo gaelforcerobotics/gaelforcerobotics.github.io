@@ -110,6 +110,12 @@ html, body {
 
 .splash {
     height: 100vh;
+    /* background-image: url('https://media.discordapp.net/attachments/386612430710767616/498259221192769536/Blank_RVB.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    background: #101010;
 }
 
 .titlebox {
