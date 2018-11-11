@@ -10,6 +10,7 @@
 
 ## Guidelines for Styling Team Pages
 ### Content:
+**Make sure to copy the code from the `_teampagetemplate.html` into your file**
 #### Section 0: Navigation
 * The navigation for the page must be done in two parts:
     * A navigation that follows similar styling and content rules as the original navigation and must be easily accesible to all users
@@ -38,6 +39,8 @@
 ### Styling
 * Make a separate `*.css` file with your team's code and link it to the page along with the main css
     * Example: `5327S.css`
+* Any fonts you use must be placed in the `css/` directory and should be imported in a separate file that looks like `teamfonts.css`
+    * Example: `5327Sfonts.css`
 * Must write UX friendly code. This means that:
     * All paragraphs or bodies of text (if not using the pre-existing classes) must be left-aligned.
     * Must have easily noticeable links and hover-able elements.
