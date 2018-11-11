@@ -10,6 +10,12 @@
 
 ## Guidelines for Styling Team Pages
 ### Content:
+#### Section 0: Navigation
+* The navigation for the page must be done in two parts:
+    * A navigation that follows similar styling and content rules as the original navigation and must be easily accesible to all users
+    * The second navigation should be one for the team page itself and must have links to all the following sections below
+    * Make sure all navigation is mobile responsive
+    * Team-specific navigation should only be collapsible when viewed on a screen size smaller than desktop
 #### Section 1: Landing
 * A team picture or some background that is representative of the team.
 
@@ -30,6 +36,8 @@
 * Additionally the form or point of contact should be distinguishable from the club's point of contact and any other surrounding elements
 
 ### Styling
+* Make a separate `*.css` file with your team's code and link it to the page along with the main css
+    * Example: `5327S.css`
 * Must write UX friendly code. This means that:
     * All paragraphs or bodies of text (if not using the pre-existing classes) must be left-aligned.
     * Must have easily noticeable links and hover-able elements.
