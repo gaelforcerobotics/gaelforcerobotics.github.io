@@ -1005,3 +1005,68 @@ input[type='submit']:hover {
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+
+#botb {
+    background: linear-gradient(45deg, #d10300, #216ae0);
+    background-size: 200% 200%;
+    height: 100vh;
+    padding: 2em 0;
+}
+
+.botbtitle {
+    font-family: 'Neon';
+    color: #fff;
+    font-size: 6em;
+    transform: rotate(-5deg) skewX(-10deg) translate(3em, 0.5em);
+    margin: 0;
+}
+
+.botbtitlebox {
+    display: flex;
+    height: 10em;
+}
+
+.embedded {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em 5em;
+    margin: 0;
+}
+
+.embedded > iframe {
+    margin: 2em;
+}
+
+.embedded > iframe:nth-child(1) {
+    width: 40em;
+    height: 30em;
+}
+
+.embedded > iframe:nth-child(2) {
+    width: 30em;
+}
+
+.livestreamlink {
+    flex: 1 0 100%;
+}
+
+#homebotb {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    transform: rotate(-5deg) skewX(-10deg) translate(0, 0);
+    top: 5.2em;
+    background: -webkit-linear-gradient(45deg, #d10300, #216ae0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+    -webkit-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+    transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+}
+
+#homebotb:hover {
+    opacity: 0.5;
+    -moz-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+    -webkit-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+    transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+}
